@@ -97,7 +97,7 @@
           </div>
 
           <button
-            class="flex items-center justify-center w-7 h-7 border border-purple-300 rounded-full text-purple-600 hover:bg-purple-100 transition"
+            class="flex items-center justify-center w-24 h-6 border border-purple-300 rounded-full text-purple-600 hover:bg-purple-100 transition"
             @click="addSlot(day)"
             :disabled="form.reservation_times[day].length >= 3"
           >
