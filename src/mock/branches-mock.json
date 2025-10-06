@@ -1,0 +1,1291 @@
+{
+    "data": [
+        {
+            "id": "97a57184-e3e5-4d0e-8556-09270dcd686c",
+            "name": "Branch 1",
+            "name_localized": null,
+            "reference": "B01",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": null,
+            "created_at": "2022-11-02 05:51:39",
+            "updated_at": "2025-10-06 17:35:14",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 10,
+            "reservation_times": {
+                "friday": [],
+                "monday": [],
+                "sunday": [
+                    [
+                        "12:00",
+                        "13:00"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "12:00",
+                        "13:00"
+                    ],
+                    [
+                        "14:00",
+                        "15:00"
+                    ],
+                    [
+                        "15:00",
+                        "16:00"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "12:00",
+                        "13:00"
+                    ],
+                    [
+                        "14:00",
+                        "15:00"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "12:00",
+                        "13:00"
+                    ],
+                    [
+                        "14:00",
+                        "15:00"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "12:00",
+                        "13:00"
+                    ],
+                    [
+                        "14:00",
+                        "15:00"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": [
+                {
+                    "id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                    "branch_id": "97a57184-e3e5-4d0e-8556-09270dcd686c",
+                    "name": "Terrace",
+                    "name_localized": null,
+                    "meta": null,
+                    "created_at": "2022-12-06 10:04:29",
+                    "updated_at": "2022-12-06 10:04:29",
+                    "deleted_at": null,
+                    "floor_id": null,
+                    "revenue_center_id": null,
+                    "tables": [
+                        {
+                            "id": "97ea3168-f320-4972-bec3-ee155080c483",
+                            "section_id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                            "name": "New Table 2",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:31",
+                            "updated_at": "2025-10-05 19:28:23",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea3168-f550-4587-a50b-0f2ee3942528",
+                            "section_id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                            "name": "New Table 3",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:31",
+                            "updated_at": "2025-10-05 19:25:55",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea316b-5860-407b-ad47-7a28d1d3fd4a",
+                            "section_id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                            "name": "New Table 1",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:32",
+                            "updated_at": "2025-10-05 19:25:56",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea316b-5a67-47a9-b6da-84393e64b745",
+                            "section_id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                            "name": "New Table 5",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:32",
+                            "updated_at": "2025-10-05 19:21:50",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea316b-a2bb-4a62-9cdf-8d745ccce6c0",
+                            "section_id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                            "name": "New Table 4",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:32",
+                            "updated_at": "2025-10-05 19:21:49",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        }
+                    ]
+                },
+                {
+                    "id": "97ea3190-fec0-4484-a63d-7a345a1a195f",
+                    "branch_id": "97a57184-e3e5-4d0e-8556-09270dcd686c",
+                    "name": "Lounge",
+                    "name_localized": null,
+                    "meta": null,
+                    "created_at": "2022-12-06 10:04:57",
+                    "updated_at": "2022-12-06 10:04:57",
+                    "deleted_at": null,
+                    "floor_id": null,
+                    "revenue_center_id": null,
+                    "tables": [
+                        {
+                            "id": "97ea3192-e2fb-424a-a227-54dae53bf6bc",
+                            "section_id": "97ea3190-fec0-4484-a63d-7a345a1a195f",
+                            "name": "New Table 5",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:58",
+                            "updated_at": "2025-10-05 19:21:49",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea3193-05fb-4696-8c72-1bd0e7ddd9be",
+                            "section_id": "97ea3190-fec0-4484-a63d-7a345a1a195f",
+                            "name": "New Table 3",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:04:58",
+                            "updated_at": "2025-09-28 19:07:27",
+                            "deleted_at": null,
+                            "accepts_reservations": false
+                        }
+                    ]
+                },
+                {
+                    "id": "97ea31b3-e167-482f-b171-f76ebf843362",
+                    "branch_id": "97a57184-e3e5-4d0e-8556-09270dcd686c",
+                    "name": "Bar",
+                    "name_localized": null,
+                    "meta": null,
+                    "created_at": "2022-12-06 10:05:20",
+                    "updated_at": "2022-12-06 10:05:20",
+                    "deleted_at": null,
+                    "floor_id": null,
+                    "revenue_center_id": null,
+                    "tables": [
+                        {
+                            "id": "97ea31b5-deec-40c5-b54e-46336d8bb2da",
+                            "section_id": "97ea31b3-e167-482f-b171-f76ebf843362",
+                            "name": "New Table 5",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:05:21",
+                            "updated_at": "2025-05-09 15:28:04",
+                            "deleted_at": null,
+                            "accepts_reservations": false
+                        },
+                        {
+                            "id": "97ea31c0-e12c-4bc3-9d3b-2be04c210f06",
+                            "section_id": "97ea31b3-e167-482f-b171-f76ebf843362",
+                            "name": "New Table 8",
+                            "status": 1,
+                            "seats": 1,
+                            "parent_id": null,
+                            "revenue_center_id": null,
+                            "meta": null,
+                            "created_at": "2022-12-06 10:05:28",
+                            "updated_at": "2025-10-05 13:40:21",
+                            "deleted_at": null,
+                            "accepts_reservations": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "97ae1f4d-deff-4143-8129-61ea302d6f53",
+            "name": "branch 2",
+            "name_localized": null,
+            "reference": "B02",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "branch_tax_number": "9q9q9q9q9q9q9qq9",
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-11-06 13:24:13",
+            "updated_at": "2025-10-06 17:35:14",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 33,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "13:00",
+                        "18:00"
+                    ],
+                    [
+                        "19:00",
+                        "22:00"
+                    ]
+                ],
+                "monday": [],
+                "sunday": [
+                    [
+                        "13:00",
+                        "18:00"
+                    ],
+                    [
+                        "19:00",
+                        "22:00"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "13:00",
+                        "18:00"
+                    ],
+                    [
+                        "19:00",
+                        "22:00"
+                    ]
+                ],
+                "saturday": [],
+                "thursday": [
+                    [
+                        "13:00",
+                        "18:00"
+                    ],
+                    [
+                        "19:00",
+                        "22:00"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "13:00",
+                        "18:00"
+                    ],
+                    [
+                        "19:00",
+                        "22:00"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "97ec05a6-9ac6-4671-8017-58eff8702042",
+            "name": "branch 3",
+            "name_localized": null,
+            "reference": null,
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "23:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "branch_tax_number": "32",
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_tax_registration_name": "23",
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-07 07:53:48",
+            "updated_at": "2025-10-06 17:35:15",
+            "deleted_at": "2023-02-28 09:25:54",
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 10,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "23:10",
+                        "23:50"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a4e14-d188-41cf-a733-e39363bbf982",
+            "name": "Test",
+            "name_localized": null,
+            "reference": "tr",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:11:10",
+            "updated_at": "2025-10-06 10:46:08",
+            "deleted_at": "2023-02-27 12:47:15",
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 40,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "10:12",
+                        "23:11"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "10:12",
+                        "23:11"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "10:12",
+                        "23:11"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "10:12",
+                        "23:11"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "10:00",
+                        "10:59"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "10:12",
+                        "23:11"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "10:12",
+                        "23:11"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a4e24-277c-4a67-b064-571ffaf971c7",
+            "name": "qwe",
+            "name_localized": null,
+            "reference": null,
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:11:20",
+            "updated_at": "2025-10-06 17:49:54",
+            "deleted_at": "2023-02-27 12:47:31",
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 36,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ],
+                    [
+                        "13:07",
+                        "17:00"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "03:02",
+                        "13:06"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a4e4b-0128-4d4a-af22-595ad8eac2d7",
+            "name": "213",
+            "name_localized": null,
+            "reference": null,
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:11:46",
+            "updated_at": "2025-10-06 17:51:21",
+            "deleted_at": "2023-02-27 12:33:43",
+            "receives_online_orders": true,
+            "accepts_reservations": true,
+            "reservation_duration": 39,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "10:00",
+                        "11:30"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "10:00",
+                        "11:30"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "09:00",
+                        "10:00"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "10:00",
+                        "11:30"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "10:00",
+                        "11:30"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "10:00",
+                        "11:30"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "10:00",
+                        "11:30"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": [
+                {
+                    "id": "97ea3166-58c3-41c8-b203-00ffdde4cabf",
+                    "branch_id": "980a4e4b-0128-4d4a-af22-595ad8eac2d7",
+                    "name": "Terrace",
+                    "tables": [
+                        {
+                            "id": "97ea3168-f320-4972-bec3-ee155080c483",
+                            "name": "Table 1 (Terrace)",
+                            "accepts_reservations": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "980a53d7-49fa-4bff-9737-ad928477a959",
+            "name": "B52",
+            "name_localized": null,
+            "reference": "B52",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:27:17",
+            "updated_at": "2025-10-06 17:59:02",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": true,
+            "reservation_duration": 30,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "09:00",
+                        "17:00"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "09:00",
+                        "17:00"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "09:00",
+                        "17:00"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "09:00",
+                        "17:00"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "09:00",
+                        "14:00"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "09:00",
+                        "17:00"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "09:00",
+                        "17:00"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": [
+                {
+                    "id": "97ea3166-58c3-41c8-b203-00ffdde4cabf-B52",
+                    "branch_id": "980a53d7-49fa-4bff-9737-ad928477a959",
+                    "name": "Dining Area",
+                    "tables": [
+                        {
+                            "id": "97ea3168-f320-4972-bec3-ee155080c483-B52",
+                            "name": "Table 10 (Dining)",
+                            "accepts_reservations": true
+                        },
+                         {
+                            "id": "97ea3168-f550-4587-a50b-0f2ee3942528-B52",
+                            "name": "Table 11 (Dining)",
+                            "accepts_reservations": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "980a53e1-6b8d-4d40-9e64-500fa2a87070",
+            "name": "B53",
+            "name_localized": null,
+            "reference": "B53",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:27:23",
+            "updated_at": "2025-10-06 17:55:22",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": true,
+            "reservation_duration": 30,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "13:01",
+                        "14:02"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": [
+                {
+                    "id": "97ea3166-58c3-41c8-b203-00ffdde4cabf-B53",
+                    "branch_id": "980a53e1-6b8d-4d40-9e64-500fa2a87070",
+                    "name": "Main Hall",
+                    "tables": [
+                        {
+                            "id": "97ea3168-f320-4972-bec3-ee155080c483-B53",
+                            "name": "Table A",
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea3168-f550-4587-a50b-0f2ee3942528-B53",
+                            "name": "Table B",
+                            "accepts_reservations": true
+                        },
+                        {
+                            "id": "97ea316b-5860-407b-ad47-7a28d1d3fd4a-B53",
+                            "name": "Table C",
+                            "accepts_reservations": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "980a5313-ca05-4090-bb38-178f2340b370",
+            "name": "B39",
+            "name_localized": null,
+            "reference": "B39",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:25:09",
+            "updated_at": "2025-10-06 10:46:11",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": {
+                "friday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ],
+                "monday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ],
+                "sunday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ],
+                "tuesday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ],
+                "saturday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ],
+                "thursday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ],
+                "wednesday": [
+                    [
+                        "13:00",
+                        "14:00"
+                    ]
+                ]
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a5348-3df6-41b5-811c-415224800e4b",
+            "name": "B44",
+            "name_localized": null,
+            "reference": "B44",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:25:43",
+            "updated_at": "2025-10-06 10:46:11",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a534d-5dc2-4d04-84bc-00812c8c6be2",
+            "name": "B43",
+            "name_localized": null,
+            "reference": "B43",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:25:46",
+            "updated_at": "2025-10-06 10:46:11",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a534f-eb6e-4e53-b202-7e3c07f54cf0",
+            "name": "B42",
+            "name_localized": null,
+            "reference": "B42",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:25:48",
+            "updated_at": "2025-10-06 10:46:11",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a5354-e339-4d78-af6a-dac351e628be",
+            "name": "B41",
+            "name_localized": null,
+            "reference": "B41",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:25:51",
+            "updated_at": "2025-10-06 10:46:11",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a5359-c97a-461e-ac3d-85b1d4901650",
+            "name": "B40",
+            "name_localized": null,
+            "reference": "B40",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:25:54",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a537e-d29e-41df-83d5-240931c336d8",
+            "name": "B45",
+            "name_localized": null,
+            "reference": "B45",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:26:19",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a5386-ee0f-4d30-a864-e4a71491af47",
+            "name": "B46",
+            "name_localized": null,
+            "reference": "B46",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:26:24",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a5390-87e6-475b-97a2-f4f7ae8f9139",
+            "name": "B47",
+            "name_localized": null,
+            "reference": "B47",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:26:30",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": {
+                "friday": [],
+                "monday": [],
+                "sunday": [],
+                "tuesday": [],
+                "saturday": [],
+                "thursday": [],
+                "wednesday": []
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a539d-dae1-442e-954c-c31b562ff426",
+            "name": "B48",
+            "name_localized": null,
+            "reference": "B48",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:26:39",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 37,
+            "reservation_times": {
+                "friday": [],
+                "monday": [],
+                "sunday": [],
+                "tuesday": [],
+                "saturday": [],
+                "thursday": [],
+                "wednesday": []
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a53a7-40ee-41cb-8667-9056b015ad3f",
+            "name": "B49",
+            "name_localized": null,
+            "reference": "B49",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:26:45",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 17,
+            "reservation_times": {
+                "friday": [],
+                "monday": [],
+                "sunday": [],
+                "tuesday": [],
+                "saturday": [],
+                "thursday": [],
+                "wednesday": []
+            },
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a53c7-5a4f-462d-ac56-9cff1bf09498",
+            "name": "B50",
+            "name_localized": null,
+            "reference": "B50",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:27:06",
+            "updated_at": "2025-10-06 10:46:12",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 30,
+            "reservation_times": null,
+            "address": null,
+            "sections": []
+        },
+        {
+            "id": "980a53cf-a092-4371-80ba-a976bc491e09",
+            "name": "B51",
+            "name_localized": null,
+            "reference": "B51",
+            "type": 1,
+            "latitude": null,
+            "longitude": null,
+            "phone": null,
+            "opening_from": "00:00",
+            "opening_to": "00:00",
+            "inventory_end_of_day_time": "00:00",
+            "receipt_header": null,
+            "receipt_footer": null,
+            "settings": {
+                "sa_zatca_branch_address": [],
+                "display_background_image": null,
+                "branch_commercial_registration_number": null
+            },
+            "created_at": "2022-12-22 09:27:12",
+            "updated_at": "2025-10-06 18:23:43",
+            "deleted_at": null,
+            "receives_online_orders": true,
+            "accepts_reservations": false,
+            "reservation_duration": 60,
+            "reservation_times": {
+                "friday": [],
+                "monday": [],
+                "sunday": [],
+                "tuesday": [],
+                "saturday": [],
+                "thursday": [],
+                "wednesday": []
+            },
+            "address": null,
+            "sections": []
+        }
+    ],
+    "links": {
+        "first": "https:\/\/api.foodics.dev\/v5\/branches?page=1",
+        "last": null,
+        "prev": null,
+        "next": "https:\/\/api.foodics.dev\/v5\/branches?page=2"
+    },
+    "meta": {
+        "current_page": 1,
+        "from": 1,
+        "path": "https:\/\/api.foodics.dev\/v5\/branches",
+        "per_page": 50,
+        "to": 50
+    }
+}

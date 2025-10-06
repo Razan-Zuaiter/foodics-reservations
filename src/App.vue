@@ -61,6 +61,7 @@ import api from "./api";
 import BranchTable from "./components/BranchTable.vue";
 import AddBranchesModal from "./components/AddBranchesModal.vue";
 import ReservationModal from "./components/ReservationModal.vue";
+import mockBranchesData from "./mock/branches-mock.json"; // in case the API is nt working, it will show static data
 
 export default {
   components: { BranchTable, AddBranchesModal, ReservationModal },
@@ -69,17 +70,24 @@ export default {
     const showAddBranches = ref(false);
     const editingBranch = ref(null);
 
-    const fetchBranches = async () => {
-      try {
-        const res = await api.get(
-          "/branches?include[0]=sections&include[1]=sections.tables"
-        );
-        allBranches.value = res.data.data;
-      } catch (error) {
-        console.error("Error fetching branches:", error);
-        alert("Failed to load branches. Check console for details.");
-      }
-    };
+ const fetchBranches = async () => {
+      try {
+        
+        const res = await api.get(
+          "/branches?include[0]=sections&include[1]=sections.tables"
+        );
+
+        // --------------- Static Data fetching ---------------------
+        // await new Promise(resolve => setTimeout(resolve, 500)); 
+        // ------------------------------------
+
+        allBranches.value = mockBranchesData.data; 
+
+      } catch (error) {
+        console.error("Error fetching branches:", error);
+        alert("Failed to load branches. Check console for details.");
+      }
+    };
 
     const openEditModal = (branch) => {
       // Find the latest data for the branch before opening the modal

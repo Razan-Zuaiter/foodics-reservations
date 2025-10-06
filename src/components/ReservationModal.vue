@@ -1,21 +1,17 @@
 <template>
   <div class="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
     <div class="bg-white w-full max-w-2xl rounded-xl shadow-2xl overflow-hidden">
-      <!-- Header -->
       <div class="border-b border-gray-200 p-5">
         <h2 class="text-xl font-semibold text-gray-800">
           Edit {{ branch.name }} branch reservation settings
         </h2>
       </div>
 
-      <!-- Body -->
       <div class="p-6 space-y-6 overflow-y-auto max-h-[75vh]">
-        <!-- Working hours info -->
         <div class="bg-blue-50 text-blue-700 border border-blue-200 px-4 py-2 rounded-md text-sm">
           Branch working hours are 00:00 - 00:00
         </div>
 
-        <!-- Reservation Duration -->
         <div>
           <label class="block text-gray-700 font-medium mb-1">
             Reservation Duration (minutes)
@@ -30,26 +26,28 @@
           />
         </div>
 
-        <!-- Tables -->
         <div>
           <label class="block text-gray-700 font-medium mb-1">
             Tables <span class="text-red-500">*</span>
           </label>
           <div
             v-if="tablesOptions.length"
-            class="flex flex-wrap gap-2 border border-gray-200 rounded-lg p-2 bg-gray-50"
+            class="border border-gray-200 rounded-lg p-2 bg-gray-50"
           >
-            <span
-              v-for="table in selectedTablesLabels"
-              :key="table"
-              class="px-3 py-1 rounded-full border border-purple-400 bg-white text-purple-700 text-sm"
-            >
-              {{ table }}
-            </span>
+            <div class="flex flex-wrap gap-2 pb-2">
+              <span
+                v-for="table in selectedTablesLabels"
+                :key="table"
+                class="px-3 py-1 rounded-full border border-purple-400 bg-white text-purple-700 text-sm"
+              >
+                {{ table }}
+              </span>
+            </div>
+            
             <select
               v-model="form.tables"
               multiple
-              class="flex-1 border-none bg-transparent text-gray-600 text-sm outline-none"
+              size="5"  class="w-full border border-gray-300 rounded-md p-2 text-gray-700 text-sm focus:ring-purple-500 focus:border-purple-500 outline-none" 
             >
               <option v-for="table in tablesOptions" :key="table.id" :value="table.id">
                 {{ table.name }}
@@ -61,7 +59,6 @@
           </div>
         </div>
 
-        <!-- Days and time slots -->
         <div v-for="day in daysOfWeek" :key="day" class="border border-gray-200 bg-gray-50 rounded-lg p-4">
           <div class="flex justify-between items-center mb-3">
             <label class="font-semibold text-gray-700 capitalize">{{ day }}</label>
@@ -113,7 +110,6 @@
         </div>
       </div>
 
-      <!-- Footer -->
       <div class="border-t border-gray-200 p-5 flex items-center justify-between bg-gray-50">
         <button
           class="text-red-500 hover:text-red-600 font-medium text-sm"
