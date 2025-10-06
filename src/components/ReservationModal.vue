@@ -101,7 +101,7 @@
             @click="addSlot(day)"
             :disabled="form.reservation_times[day].length >= 3"
           >
-            +
+            Add slot
           </button>
 
           <p

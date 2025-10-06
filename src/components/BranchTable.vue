@@ -37,7 +37,6 @@
 </template>
 
 <script>
-// Using Vue 3 Composition API setup syntax with Options API props for simplicity
 export default {
   props: {
     branches: {
